@@ -42,7 +42,12 @@
             <div class="brand">
                 <span class="brand-text">Xuan Thanh Huynh</span>
             </div>
-            <ul class="nav-links">
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about" class="nav-link active" data-target="about">About Me</a></li>
                 <li><a href="#experience" class="nav-link" data-target="experience">Experience</a></li>
                 <li><a href="#blog" class="nav-link" data-target="blog">Blog</a></li>
@@ -341,6 +346,25 @@
     </main>
 
     <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinksMenu = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            const isOpen = navLinksMenu.classList.toggle('open');
+            hamburger.classList.toggle('open', isOpen);
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navLinksMenu.contains(e.target)) {
+                navLinksMenu.classList.remove('open');
+                hamburger.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+        });
+
         // Tab switching logic
         const navLinks = document.querySelectorAll('.nav-link');
         const tabContents = document.querySelectorAll('.tab-content');
@@ -357,6 +381,11 @@
                 // Add active class to clicked link and corresponding tab
                 link.classList.add('active');
                 document.getElementById(targetId).classList.add('active');
+
+                // Close hamburger menu on mobile after navigation
+                navLinksMenu.classList.remove('open');
+                hamburger.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
             });
         });
 
