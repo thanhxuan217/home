@@ -941,3 +941,13 @@ footer i {
         gap: 1rem;
     }
 }
+.blog-link {
+    margin-top: 1rem;
+    color: var(--accent-1);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+}

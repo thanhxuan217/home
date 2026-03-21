@@ -1,34 +1,33 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xuan Thanh Huynh - Software Engineer & NLP Researcher</title>
+    <title>Xuan Thanh Huynh - About</title>
     <meta name="description"
-        content="Portfolio cá nhân của Huỳnh Thành Xuân (Xuan Thanh Huynh) - Kỹ sư phần mềm tại Techbase VietNam và Nghiên cứu viên NLP tại HCMUS. Personal portfolio of Xuan Thanh Huynh, Software Engineer & NLP Researcher.">
+        content="Portfolio cá nhân của Huỳnh Thanh Xuân (Xuan Thanh Huynh) - Software Engineer tại Techbase VietNam và NLP Researcher tại HCMUS.">
     <meta name="keywords"
-        content="Xuan Thanh Huynh, Huynh Thanh Xuan, Huỳnh Thanh Xuân, kỹ sư phần mềm, lập trình viên, nghiên cứu NLP, Techbase VietNam, HCMUS, Xử lý ngôn ngữ tự nhiên, Software Engineer, NLP Researcher, Natural Language Processing, Sequence Labeling, LLM, RAG, BERT, Hán Nôm, Classical Sino-Vietnamese, Full-stack developer, Java, Node.js, Vue.js, Spring Boot, Portfolio">
+        content="Xuan Thanh Huynh, Huynh Thanh Xuan, Software Engineer, NLP Researcher, Portfolio, Techbase VietNam, HCMUS">
     <meta name="author" content="Huỳnh Thanh Xuân">
     <meta name="robots" content="index, follow">
     <meta name="language" content="Vietnamese, English">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="vi_VN">
     <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:title" content="Huỳnh Thanh Xuân - Kỹ sư Phần mềm & Nghiên cứu NLP">
+    <meta property="og:title" content="Huỳnh Thanh Xuân - Software Engineer & NLP Researcher">
     <meta property="og:description"
-        content="Portfolio cá nhân của Huỳnh Thanh Xuân - Kỹ sư phần mềm tại Techbase VietNam và Nghiên cứu viên NLP tại HCMUS.">
-    <meta property="og:image" content="avt.jpg">
+        content="Portfolio cá nhân của Huỳnh Thanh Xuân - Software Engineer tại Techbase VietNam và NLP Researcher tại HCMUS.">
+    <meta property="og:image" content="assets/images/avt.jpg">
 
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Huỳnh Thanh Xuân - Kỹ sư Phần mềm & Nghiên cứu NLP">
+    <meta property="twitter:title" content="Huỳnh Thanh Xuân - Software Engineer & NLP Researcher">
     <meta property="twitter:description"
-        content="Portfolio cá nhân của Huỳnh Thanh Xuân - Kỹ sư phần mềm tại Techbase VietNam và Nghiên cứu viên NLP tại HCMUS.">
-    <meta property="twitter:image" content="avt.jpg">
-    <link rel="stylesheet" href="style.css">
+        content="Portfolio cá nhân của Huỳnh Thanh Xuân - Software Engineer tại Techbase VietNam và NLP Researcher tại HCMUS.">
+    <meta property="twitter:image" content="assets/images/avt.jpg">
+
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -36,7 +35,6 @@
 </head>
 
 <body>
-    <!-- Top Navigation Menu -->
     <nav class="top-menu">
         <div class="nav-container">
             <div class="brand">
@@ -48,18 +46,16 @@
                 <span></span>
             </button>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#about" class="nav-link active" data-target="about">About Me</a></li>
-                <li><a href="#experience" class="nav-link" data-target="experience">Experience</a></li>
-                <li><a href="#blog" class="nav-link" data-target="blog">Blog</a></li>
-                <li><a href="#publications" class="nav-link" data-target="publications">Publications</a></li>
-                <li><a href="#certificates" class="nav-link" data-target="certificates">Certificates</a></li>
+                <li><a href="./index.html" class="nav-link active">About Me</a></li>
+                <li><a href="./pages/blog.html" class="nav-link">Blog</a></li>
+                <li><a href="./pages/publications.html" class="nav-link">Publications</a></li>
+                <li><a href="./pages/certificates.html" class="nav-link">Certificates</a></li>
             </ul>
             <div class="nav-actions">
                 <div class="visitor-counter" title="Total Visitors">
                     <i class="fas fa-eye"></i>
                     <span id="visitor-count">...</span>
                 </div>
-                <!-- Theme Toggle -->
                 <button class="theme-toggle-nav" id="theme-toggle" aria-label="Toggle dark/light theme">
                     <i class="fas fa-sun" id="theme-icon"></i>
                 </button>
@@ -73,373 +69,113 @@
     </div>
 
     <main class="container">
+        <header class="hero-section" id="hero">
+            <div class="hero-content">
+                <svg class="hero-decoration" width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 10 L10 0 L20 10 L30 0 L40 10 L50 0 L60 10 L70 0 L80 10 L90 0 L100 10"
+                        stroke="var(--text-primary)" stroke-width="2" fill="none" class="zigzag-path" />
+                </svg>
 
-        <!-- Tab: About Me -->
-        <div id="about" class="tab-content active">
-            <header class="hero-section" id="hero">
-                <div class="hero-content">
-                    <svg class="hero-decoration" width="100" height="20" viewBox="0 0 100 20"
-                        xmlns="http://www.w3.org/2000/svg">
+                <h1 class="hero-title">
+                    Hi! I'm <span class="highlight-name">Xuan</span><br>
+                    the Software Engineer
+                </h1>
+
+                <p class="hero-bio">
+                    I am an engineer at <strong>Techbase VietNam</strong> &amp; an NLP Researcher at <strong>HCMUS</strong>.
+                    I share logic, data structures, and life hacks.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#my-story" class="btn primary"
+                        onclick="document.getElementById('my-story').scrollIntoView({behavior: 'smooth'})">MY STORY</a>
+                    <a href="mailto:thanhxuan217@example.com" class="btn secondary">ASK ME</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <img src="assets/images/avt.jpg" alt="Huynh Thanh Xuan" class="hero-main-image">
+            </div>
+        </header>
+
+        <section class="story-section" id="my-story">
+            <div class="story-container glassmorphism">
+                <div class="story-image">
+                    <img src="https://picsum.photos/id/1015/800/600" alt="Journey Landscape" class="journey-photo">
+                </div>
+                <div class="story-text">
+                    <h2 class="section-title">My Story</h2>
+                    <svg class="hero-decoration" width="60" height="15" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 10 L10 0 L20 10 L30 0 L40 10 L50 0 L60 10 L70 0 L80 10 L90 0 L100 10"
-                            stroke="var(--text-primary)" stroke-width="2" fill="none" class="zigzag-path" />
+                            stroke="var(--accent-1)" stroke-width="2" fill="none" class="zigzag-path" />
                     </svg>
-
-                    <h1 class="hero-title">
-                        Hi! I'm <span class="highlight-name">Xuan</span><br>
-                        the Software Engineer
-                    </h1>
-
-                    <p class="hero-bio">
-                        I am an engineer at <strong>Techbase VietNam</strong> &amp; an NLP Researcher at
-                        <strong>HCMUS</strong>.
-                        I share logic, data structures, and life hacks.
+                    <p>
+                        Hi, I'm Xuan. I have always been fascinated by logic, intelligence, and language. My journey
+                        brought me to pursuing a Master's degree at HCMUS, focusing deeply on Natural Language Processing (NLP).
                     </p>
-
-                    <div class="hero-buttons">
-                        <a href="#my-story" class="btn primary"
-                            onclick="document.getElementById('my-story').scrollIntoView({behavior: 'smooth'})">MY
-                            STORY</a>
-                        <a href="mailto:thanhxuan217@example.com" class="btn secondary">ASK ME</a>
-                    </div>
+                    <p>
+                        With 3 years of practical experience at Techbase VietNam, I realized that understanding complex systems is only half the battle - sharing that knowledge makes it real. That's why this space exists. Here you will find useful coding logic, data structures, research insights on the Classical Sino-Vietnamese Corpus, and everyday hacks I've discovered along the way.
+                    </p>
                 </div>
+            </div>
+        </section>
 
-                <div class="hero-image-wrapper">
-                    <img src="avt.jpg" alt="Huynh Thanh Xuan" class="hero-main-image">
-                </div>
-            </header>
+        <section class="info-section grid-layout" id="details">
+            <div class="card glassmorphism" id="research">
+                <h3><i class="fas fa-microscope"></i> Research Interests</h3>
+                <ul class="tag-list">
+                    <li><span class="tag">Sequence Labeling</span></li>
+                    <li><span class="tag">Large Language Models (LLM)</span></li>
+                    <li><span class="tag">Retrieval-Augmented Generation (RAG)</span></li>
+                    <li><span class="tag">BERT</span></li>
+                    <li><span class="tag">Classical Sino-Vietnamese</span></li>
+                </ul>
+            </div>
 
-            <!-- My Story Section -->
-            <section class="story-section" id="my-story">
-                <div class="story-container glassmorphism">
-                    <div class="story-image">
-                        <img src="https://picsum.photos/id/1015/800/600" alt="Journey Landscape" class="journey-photo">
-                    </div>
-                    <div class="story-text">
-                        <h2 class="section-title">My Story</h2>
-                        <svg class="hero-decoration" width="60" height="15" viewBox="0 0 100 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 10 L10 0 L20 10 L30 0 L40 10 L50 0 L60 10 L70 0 L80 10 L90 0 L100 10"
-                                stroke="var(--accent-1)" stroke-width="2" fill="none" class="zigzag-path" />
-                        </svg>
-                        <p>
-                            Hi, I'm Xuan. I have always been fascinated by logic, intelligence, and language. My journey
-                            brought me to pursuing a Master's degree at HCMUS, focusing deeply on Natural Language
-                            Processing (NLP).
-                        </p>
-                        <p>
-                            With 3 years of practical experience at Techbase VietNam, I realized that understanding
-                            complex systems is only half the battle – sharing that knowledge makes it real. That's why
-                            this space exists. Here you will find useful coding logic, data structures, research
-                            insights on the Classical Sino-Vietnamese Corpus, and everyday hacks I've discovered along
-                            the way.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="info-section grid-layout" id="details">
-                <div class="card glassmorphism" id="research">
-                    <h3><i class="fas fa-microscope"></i> Research Interests</h3>
-                    <ul class="tag-list">
-                        <li><span class="tag">Sequence Labeling</span></li>
-                        <li><span class="tag">Large Language Models (LLM)</span></li>
-                        <li><span class="tag">Retrieval-Augmented Generation (RAG)</span></li>
-                        <li><span class="tag">BERT</span></li>
-                        <li><span class="tag">Classical Sino-Vietnamese</span></li>
-                    </ul>
-                </div>
-
-                <div class="card glassmorphism" id="education">
-                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <h4>Ho Chi Minh City University of Science</h4>
-                                <p class="degree">Master of Science in Computer Science</p>
-                                <span class="date">12/2024 - Present</span>
-                            </div>
+            <div class="card glassmorphism" id="education">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Ho Chi Minh City University of Science</h4>
+                            <p class="degree">Master of Science in Computer Science</p>
+                            <span class="date">12/2024 - Present</span>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <h4>Can Tho University</h4>
-                                <p class="degree">Information Technology</p>
-                                <span class="date">08/2018 - 12/2022</span>
-                            </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Can Tho University</h4>
+                            <p class="degree">Information Technology</p>
+                            <span class="date">08/2018 - 12/2022</span>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="card glassmorphism full-width" id="brief-experience">
-                    <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <h4>Techbase VietNam</h4>
-                                <p class="degree">Software Engineer</p>
-                                <span class="date">11/2022 - Present</span>
-                                <p style="margin-top: 0.5rem; color: var(--text-secondary);">
-                                    Full-stack development, LLM integration, and system architecture in Agile teams.
-                                    <a href="#experience"
-                                        onclick="document.querySelector('[data-target=\'experience\']').click(); document.getElementById('experience').scrollIntoView({behavior: 'smooth'})"
-                                        style="color: var(--accent-1); text-decoration: none; font-weight: 500; margin-left: 0.5rem;">Read
-                                        more <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i></a>
-                                </p>
-                            </div>
+            <div class="card glassmorphism full-width" id="brief-experience">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Techbase VietNam</h4>
+                            <p class="degree">Software Engineer</p>
+                            <span class="date">11/2022 - Present</span>
+                            <p style="margin-top: 0.5rem; color: var(--text-secondary);">Full-stack developer</p>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div> <!-- End About Me Tab -->
-
-        <!-- Tab: Experience -->
-        <div id="experience" class="tab-content">
-            <section class="info-section">
-                <div class="card glassmorphism full-width">
-                    <h3><i class="fas fa-laptop-code"></i> Professional Experience</h3>
-                    <p class="bio" style="margin-bottom: 2rem;">My journey and contributions as a Software Engineer.</p>
-
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <h4>Techbase VietNam</h4>
-                                <p class="degree">Software Engineer</p>
-                                <span class="date">11/2022 - Present</span>
-                                <ul
-                                    style="margin-top: 1rem; padding-left: 1.2rem; color: var(--text-secondary); line-height: 1.8;">
-                                    <li>Worked in Agile Scrum teams, actively participating in sprint planning, daily
-                                        stand-ups, backlog refinement, and sprint reviews.</li>
-                                    <li>Designed and developed backend services using Java (Spring Boot) and Node.js in
-                                        a microservices-based architecture.</li>
-                                    <li>Built and maintained RESTful APIs and integrated distributed services.</li>
-                                    <li>Highly proficient in frontend development with Vue.js and Nuxt.js, building
-                                        scalable and maintainable user interfaces.</li>
-                                    <li>Applied Unit Testing and E2E testing (Playwright) to ensure code quality and
-                                        system reliability.</li>
-                                    <li>Implemented event-driven and real-time communication using Apache Pulsar and
-                                        WebSocket.</li>
-                                    <li>Containerized applications with Docker and deployed services on Kubernetes,
-                                        supporting scalable deployments.</li>
-                                    <li>Built and maintained CI/CD pipelines using Screwdriver.</li>
-                                    <li>Collaborated effectively in cross-functional teams, following Japanese Ho-Ren-So
-                                        working culture (Report &ndash; Inform &ndash; Consult).</li>
-                                    <li>Proficient in Prompt Engineering for LLM-based applications and development
-                                        workflows.</li>
-                                    <li>Highly proficient in using GitHub Copilot and Claude Code to enhance
-                                        productivity and code quality.</li>
-                                    <li>Appointed as Upper Reviewer, responsible for code quality review, architectural
-                                        consistency, and engineering standards.</li>
-                                    <li>Conducted internal research and knowledge sharing on LLM trends, contributing to
-                                        improved development efficiency and productivity.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div> <!-- End Experience Tab -->
-
-        <!-- Tab: Blog -->
-        <div id="blog" class="tab-content">
-            <section class="info-section blog-section">
-                <!-- Section Header -->
-                <div class="section-header text-center">
-                    <svg class="hero-decoration center-svg" width="100" height="20" viewBox="0 0 100 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 10 L10 0 L20 10 L30 0 L40 10 L50 0 L60 10 L70 0 L80 10 L90 0 L100 10"
-                            stroke="var(--text-primary)" stroke-width="2" fill="none" class="zigzag-path" />
-                    </svg>
-                    <h2 class="section-title">Useful Tips for Independent Tourists</h2>
-                </div>
-
-                <!-- Blog Grid -->
-                <div class="blog-grid">
-                    <!-- Article 1 -->
-                    <article class="blog-card glassmorphism">
-                        <div class="blog-image-container">
-                            <img src="https://picsum.photos/id/1018/600/400" alt="Vienna Landscape" class="blog-image">
-                        </div>
-                        <div class="blog-content">
-                            <span class="blog-date">17 Dec 2026</span>
-                            <h3 class="blog-title">Vienna, the Emperor's Pearl</h3>
-                            <p class="blog-excerpt">Vienna is the largest cultural and historical center of Europe. The
-                                city impresses with its history, original architecture, magnif...</p>
-                        </div>
-                    </article>
-
-                    <!-- Article 2 -->
-                    <article class="blog-card glassmorphism">
-                        <div class="blog-image-container">
-                            <img src="https://picsum.photos/id/1036/600/400" alt="Mountain Landscape"
-                                class="blog-image">
-                        </div>
-                        <div class="blog-content">
-                            <span class="blog-date">24 Oct 2026</span>
-                            <h3 class="blog-title">Look at Dolomites in Winter</h3>
-                            <p class="blog-excerpt">You might not know that, but Dolomites are perfect for skiing in
-                                winter. Especially for those who don't have enough practice, like...</p>
-                        </div>
-                    </article>
-
-                    <!-- Article 3 -->
-                    <article class="blog-card glassmorphism">
-                        <div class="blog-image-container">
-                            <img src="https://picsum.photos/id/1040/600/400" alt="Amsterdam Landscape"
-                                class="blog-image">
-                        </div>
-                        <div class="blog-content">
-                            <span class="blog-date">16 Oct 2026</span>
-                            <h3 class="blog-title">Low-cost Amsterdam Tips</h3>
-                            <p class="blog-excerpt">Amsterdam is considered to be an expensive city even for wealthy
-                                tourists. A room in a 3-star hotel costs approximately $150. So, ...</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </div> <!-- End Blog Tab -->
-
-        <!-- Tab: Publications -->
-        <div id="publications" class="tab-content">
-            <section class="info-section">
-                <div class="card glassmorphism full-width">
-                    <h3><i class="fas fa-book-open"></i> Publications & Research</h3>
-                    <p class="bio">Exploring the intersection of NLP and Classical Texts.</p>
-                    <div class="publication-item" style="margin-top: 2rem;">
-                        <div class="pub-icon">
-                            <i class="fas fa-file-pdf"></i>
-                        </div>
-                        <div class="pub-details">
-                            <h4>Bridging AI and Cultural Heritage: A Domain-Specific Chatbot for Classical
-                                Sino-Vietnamese Novels</h4>
-                            <p class="conference">VCL 2025</p>
-                            <a href="https://vcl.huflit.edu.vn/event/3/attachments/11/26/Ky%20yeu%20HT%20VCL2025.pdf"
-                                target="_blank" class="pub-link">
-                                Read Paper <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div> <!-- End Publications Tab -->
-
-        <!-- Tab: Certificates -->
-        <div id="certificates" class="tab-content">
-            <section class="info-section">
-                <div class="card glassmorphism full-width text-center">
-                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
-                    <p class="bio">A showcase of my professional certifications and achievements.</p>
-                    <div class="coming-soon">
-                        <i class="fas fa-medal fa-3x text-accent"
-                            style="margin: 2rem 0; color: var(--accent-2); opacity: 0.5;"></i>
-                        <p>Coming Soon</p>
-                    </div>
-                </div>
-            </section>
-        </div> <!-- End Certificates Tab -->
+            </div>
+        </section>
 
         <footer>
             <p>&copy; 2026 Huynh Thanh Xuan. Designed with <i class="fas fa-heart"></i></p>
         </footer>
     </main>
 
-    <script>
-        // Hamburger menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const navLinksMenu = document.getElementById('nav-links');
-
-        hamburger.addEventListener('click', () => {
-            const isOpen = navLinksMenu.classList.toggle('open');
-            hamburger.classList.toggle('open', isOpen);
-            hamburger.setAttribute('aria-expanded', isOpen);
-        });
-
-        // Close menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !navLinksMenu.contains(e.target)) {
-                navLinksMenu.classList.remove('open');
-                hamburger.classList.remove('open');
-                hamburger.setAttribute('aria-expanded', 'false');
-            }
-        });
-
-        // Tab switching logic
-        const navLinks = document.querySelectorAll('.nav-link');
-        const tabContents = document.querySelectorAll('.tab-content');
-
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('data-target');
-
-                // Remove active classes
-                navLinks.forEach(nav => nav.classList.remove('active'));
-                tabContents.forEach(tab => tab.classList.remove('active'));
-
-                // Add active class to clicked link and corresponding tab
-                link.classList.add('active');
-                document.getElementById(targetId).classList.add('active');
-
-                // Close hamburger menu on mobile after navigation
-                navLinksMenu.classList.remove('open');
-                hamburger.classList.remove('open');
-                hamburger.setAttribute('aria-expanded', 'false');
-            });
-        });
-
-        // Theme toggling logic
-        const themeToggleBtn = document.getElementById('theme-toggle');
-        const themeIcon = document.getElementById('theme-icon');
-        const body = document.body;
-
-        // Check local storage for theme preference
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'light') {
-            body.classList.add('light-theme');
-            themeIcon.classList.replace('fa-sun', 'fa-moon');
-        }
-
-        themeToggleBtn.addEventListener('click', () => {
-            body.classList.toggle('light-theme');
-
-            // Switch icon and save preference
-            if (body.classList.contains('light-theme')) {
-                themeIcon.classList.replace('fa-sun', 'fa-moon');
-                localStorage.setItem('theme', 'light');
-            } else {
-                themeIcon.classList.replace('fa-moon', 'fa-sun');
-                localStorage.setItem('theme', 'dark');
-            }
-        });
-
-        // Fetch visitor count using a reliable JSON API (CounterAPI)
-        async function fetchVisitorCount() {
-            try {
-                // namespace: thanhxuan217, key: portfolio
-                const apiUrl = "https://api.counterapi.dev/v1/thanhxuan217/portfolio/up";
-
-                const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-
-                if (data && data.count) {
-                    document.getElementById("visitor-count").textContent = data.count;
-                } else {
-                    throw new Error("Invalid format from API");
-                }
-            } catch (error) {
-                console.error("Error fetching visitor count:", error);
-                document.getElementById("visitor-count").parentElement.style.display = 'none'; // Hide if failed
-            }
-        }
-
-        // Call the function when page loads
-        document.addEventListener('DOMContentLoaded', fetchVisitorCount);
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

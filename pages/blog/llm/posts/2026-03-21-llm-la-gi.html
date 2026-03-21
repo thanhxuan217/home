@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Draft] LLM la gi va duoc ung dung nhu the nao trong san pham thuc te - Xuan Thanh Huynh</title>
+    <meta name="description" content="Tong quan de hieu ve LLM, cach no hoat dong va cac ung dung gan voi bai toan thuc te.">
+    <meta name="author" content="Huynh Thanh Xuan">
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="[Draft] LLM la gi va duoc ung dung nhu the nao trong san pham thuc te">
+    <meta property="og:description" content="Tong quan de hieu ve LLM, cach no hoat dong va cac ung dung gan voi bai toan thuc te.">
+    <meta property="og:image" content="../../../../assets/images/avt.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="[Draft] LLM la gi va duoc ung dung nhu the nao trong san pham thuc te">
+    <meta property="twitter:description" content="Tong quan de hieu ve LLM, cach no hoat dong va cac ung dung gan voi bai toan thuc te.">
+    <meta property="twitter:image" content="../../../../assets/images/avt.jpg">
+
+    <link rel="stylesheet" href="../../../../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .post-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            animation: fadeInTab 0.5s ease-out forwards;
+        }
+
+        .post-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .post-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin: 1rem 0 1.5rem;
+        }
+
+        .post-body {
+            line-height: 1.85;
+            color: var(--text-primary);
+        }
+
+        .post-body h3 {
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+            font-size: 1.4rem;
+        }
+
+        .post-body p,
+        .post-body li {
+            color: var(--text-secondary);
+        }
+
+        .post-body ul,
+        .post-body ol {
+            padding-left: 1.2rem;
+        }
+
+        .post-note {
+            margin-top: 2rem;
+            border-left: 3px solid var(--accent-1);
+            padding: 0.75rem 1rem;
+            background: rgba(59, 130, 246, 0.08);
+            border-radius: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .post-actions {
+            margin-top: 2rem;
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="top-menu">
+        <div class="nav-container">
+            <div class="brand">
+                <span class="brand-text">Xuan Thanh Huynh</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../../../../index.html" class="nav-link">About Me</a></li>
+                <li><a href="../../../blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="../../../publications.html" class="nav-link">Publications</a></li>
+                <li><a href="../../../certificates.html" class="nav-link">Certificates</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="visitor-counter" title="Total Visitors">
+                    <i class="fas fa-eye"></i>
+                    <span id="visitor-count">...</span>
+                </div>
+                <button class="theme-toggle-nav" id="theme-toggle" aria-label="Toggle dark/light theme">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background-effects">
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+    </div>
+
+    <main class="container">
+        <section class="info-section">
+            <article class="post-wrapper glassmorphism">
+                <header class="post-header">
+                    <span class="blog-date">Draft · 2026-03-21</span>
+                    <h1 class="section-title">LLM la gi va duoc ung dung nhu the nao trong san pham thuc te</h1>
+                    <div class="post-meta">
+                        <span><i class="fas fa-folder-open"></i> Topic: LLM</span>
+                        <span><i class="fas fa-user"></i> Author: Huynh Thanh Xuan</span>
+                        <span><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                    <p class="blog-excerpt">Tong quan de hieu ve LLM, cach no hoat dong va cac ung dung gan voi bai toan thuc te.</p>
+                </header>
+
+                <div class="post-body">
+                    <h3>1. Why this topic matters</h3>
+                    <p>LLM dang tro thanh lop nang luc co ban cho nhieu san pham phan mem moi.</p>
+                    <p>Hieu ro LLM giup chung ta dua ra quyet dinh ky thuat dung ngay tu dau.</p>
+
+                    <h3>2. Core idea</h3>
+                    <p>LLM la mo hinh ngon ngu lon duoc huan luyen tren luong du lieu van ban rat lon de du doan token tiep theo.</p>
+                    <p>Tu co che nay, mo hinh co the tom tat, hoi dap, viet noi dung va ho tro lap trinh.</p>
+
+                    <h3>3. Step-by-step breakdown</h3>
+                    <ol>
+                        <li>Xac dinh bai toan nghiep vu can LLM ho tro.</li>
+                        <li>Chon model phu hop theo chat luong, toc do, chi phi.</li>
+                        <li>Thiet ke luong input-output ro rang va co cach danh gia.</li>
+                    </ol>
+
+                    <h3>4. Example</h3>
+                    <p>Vi du chatbot ho tro khach hang: thu thap cau hoi pho bien, tao prompt khung, them context tu kho tri thuc noi bo, sau do do luong do chinh xac va ti le can thiep cua nguoi.</p>
+
+                    <h3>5. Common mistakes</h3>
+                    <ul>
+                        <li>Chon model theo trend ma khong benchmark.</li>
+                        <li>Thieu bo test case dai dien cho du lieu that.</li>
+                        <li>Khong theo doi chi phi token khi scale.</li>
+                    </ul>
+
+                    <h3>6. Key takeaways</h3>
+                    <ul>
+                        <li>LLM manh nhung can architecture dung.</li>
+                        <li>Prompt, context va eval quan trong ngang model.</li>
+                        <li>Bat dau nho, do luong ky, roi moi mo rong.</li>
+                    </ul>
+
+                    <h3>7. References</h3>
+                    <ul>
+                        <li><a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">Attention Is All You Need</a></li>
+                        <li><a href="https://platform.openai.com/docs" target="_blank" rel="noopener noreferrer">OpenAI API docs</a></li>
+                    </ul>
+                </div>
+
+                <div class="post-note">
+                    Ghi chu: day la bai nhap, ban co the tiep tuc chinh sua truoc khi publish.
+                </div>
+
+                <div class="post-actions">
+                    <a class="btn secondary" href="../../../blog.html">Back to Blog</a>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Huynh Thanh Xuan. Designed with <i class="fas fa-heart"></i></p>
+        </footer>
+    </main>
+
+    <script src="../../../../assets/js/main.js"></script>
+</body>
+
+</html>
+
